@@ -13,7 +13,7 @@ def lambda_handler(event, context):
         'Ec2KeyName': 'spark',
         'KeepJobFlowAliveWhenNoSteps': True,
         'TerminationProtected': False,
-        'Ec2SubnetId': 'subnet-b51b2fd3',
+        'Ec2SubnetId': 'subnet-0f43a176',
         'EmrManagedMasterSecurityGroup': 'sg-00e712ec1b09f676e',
         'EmrManagedSlaveSecurityGroup':  'sg-0e9ebbfd18d0669a8'
     }
